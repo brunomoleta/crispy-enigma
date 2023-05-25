@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+    --pure-white: hsl(0, 0%, 100%);
+    --cream: hsl(30, 38%, 92%);
+    --auro-metal-saurus: #6C7289;
+    --deep-aquamarine-hover: #1A4032;
+    --gun-metal: #1C232B;
+
+    --product-name-font: 'Fraunces', serif;
+    --secondary-font:'Montserrat', sans-serif;
+
+    --heading-font-size: 3.2rem;
+    --heading-line-height: 3.2rem;
+    
+    --body-font-size: 1.4rem;
+    --heading-line-height: 2.3rem;
+
+    --perfume-letter-spacing: .5rem;
+
+    --card-width-desktop: 60rem;
+    --card-height-desktop: 45rem;
+    
+    --card-width-mobile: 32rem;
+    --card-height-mobile: 60rem;
+
+    --font-weight-normal: 500;
+    --font-weight-bold: 700;
+
+}
