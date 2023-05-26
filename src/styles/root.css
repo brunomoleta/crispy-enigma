@@ -1,52 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 
 :root {
-    --pure-white: hsl(0, 0%, 100%);
-    --cream: hsl(30, 38%, 92%);
-    --auro-metal-saurus: #6C7289;
-    --deep-aquamarine-hover: #1A4032;
-    --deep-aquamarine: #3D8168;
-    --gun-metal: #1C232B;
+  --pure-white: hsl(0, 0%, 100%);
+  --cream: hsl(30, 38%, 92%);
+  --auro-metal-saurus: #6c7289;
+  --deep-aquamarine-hover: #1a4032;
+  --deep-aquamarine: #3d8168;
+  --gun-metal: #1c232b;
 
-    --product-name-font: 'Fraunces', serif;
-    --secondary-font:'Montserrat', sans-serif;
+  --product-name-font: "Fraunces", serif;
+  --secondary-font: "Montserrat", sans-serif;
 
-    --heading-font-size: 3.2rem;
-    --heading-line-height: 3.2rem;
-    
-    --perfume-top-font-size: 1.2rem;
-    --body-font-size: 1.4rem;
-    --paragraph-line-height: 2.3rem;
+  --heading-font-size: 3.2rem;
+  --heading-line-height: 3.2rem;
 
-    --perfume-letter-spacing: .5rem;
+  --perfume-top-font-size: 1.2rem;
+  --body-font-size: 1.4rem;
+  --paragraph-line-height: 2.3rem;
 
-    --card-width-desktop: 60rem;
-    --card-height-desktop: 45rem;
-    
-    --card-width-mobile: 32rem;
-    --card-height-mobile: 60rem;
+  --perfume-letter-spacing: 0.5rem;
 
-    --text-width: 24rem;
+  --card-width-desktop: 60rem;
+  --card-height-desktop: 45rem;
 
-    --font-weight-normal: 500;
-    --font-weight-bold: 700;
+  --card-width-mobile: 32rem;
+  --card-height-mobile: 60rem;
 
-    --card-border-radius: 1rem;
-    --button-border-radius: .8rem;
+  --text-width: 24rem;
 
-    --button-height: 5rem;
+  --font-weight-normal: 500;
+  --font-weight-bold: 700;
 
-    --card-text-padding-inline: 2.5rem;
-    --card-text-padding-top: 2.5rem;
+  --card-border-radius: 1rem;
+  --button-border-radius: 0.8rem;
 
-    --cart-dimensions: 1.6rem;
-    --prices-gap: 2.0rem;
-    --button-cart-margin: 1.2rem;
+  --button-height: 5rem;
 
-    --footer-font-size: 1rem;
+  --card-text-padding-inline: 2.5rem;
+  --card-text-padding-top: 2.5rem;
 
-    --heading-margin-top: 2rem;
-    --heading-margin-bottom: 2.4rem;
+  --cart-dimensions: 1.6rem;
+  --prices-gap: 2rem;
+  --button-cart-margin: 1.2rem;
 
-    --price-margin-block: 3rem;
+  --footer-font-size: 1rem;
+
+  --heading-margin-top: 2rem;
+  --heading-margin-bottom: 2.4rem;
+
+  --price-margin-block: 3rem;
+
+  --global-gap-desktop: 2rem;
+  --global-gap-mobile: 1rem;
+
+  --card-padding-inline-mobile: 3.2rem;
+  --card-max-height-mobile: 62rem;
+
+  --card-top-grid-mobile: 24rem;
+  --card-bottom-grid-mobile: 38rem;
 }

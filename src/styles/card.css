@@ -7,15 +7,19 @@
   grid-template-areas: "image info";
 }
 
+
 .perfume__image {
   grid-area: "image";
-}
+} 
+  #desktop__image {
+    border-top-left-radius: var(--card-border-radius);
+    border-bottom-left-radius: var(--card-border-radius);
+  }
 
 
 .perfume__info {
   grid-area: "info";
   padding-inline: var(--card-text-padding-inline);
-  /* padding-top: var(--card-text-padding-top); */
   background-color: var(--pure-white);
   border-top-right-radius: var(--card-border-radius);
   border-bottom-right-radius: var(--card-border-radius);
@@ -24,11 +28,11 @@
   justify-content: space-evenly;
 }
 
-
 .perfume__name__above {
   font-family: var(--secondary-font);
   font-weight: var(--font-weight-normal);
   letter-spacing: var(--perfume-letter-spacing);
+  font-size: var(--perfume-top-font-size);
 }
 
 .perfume__prices {
@@ -37,16 +41,8 @@
   align-items: center;
 }
 
-.perfume__name{
-  
-}
-
 .perfume__anteriorPrice {
   text-decoration: line-through;
-}
-
-.perfume__name__above {
-  font-size: var(--perfume-top-font-size);
 }
 
 .perfume__name,
@@ -62,11 +58,6 @@
   line-height: var(--heading-line-height);
 }
 
-.perfume__name__above,
-.perfume__description,
-.perfume__anteriorPrice {
-  color: var(--auro-metal-saurus);
-}
 
 .perfume__description,
 .perfume__anteriorPrice {
@@ -76,34 +67,10 @@
   line-height: var(--paragraph-line-height);
 }
 
-.perfume__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--deep-aquamarine);
-  color: var(--pure-white);
-  font-family: var(--secondary-font);
-  font-size: var(--body-font-size);
-  font-weight: var(--font-weight-bold);
-  border-radius: var(--button-border-radius);
-  width: 100%;
-  height: var(--button-height);
-  text-align: center;
-}
-
-.perfume__btn:before {
-  display: inline-flex;
-  content: "";
-  background-image: url(../images/icon-cart.svg);
-  background-repeat: no-repeat;
-  height: var(--cart-dimensions);
-  width: var(--cart-dimensions);
-  margin-right: var(--button-cart-margin);
-  align-items: center;
-}
-
-.perfume__btn:hover {
-  background-color: var(--deep-aquamarine-hover);
+.perfume__name__above,
+.perfume__description,
+.perfume__anteriorPrice {
+  color: var(--auro-metal-saurus);
 }
 
 .perfume__name {
@@ -112,13 +79,4 @@
 
 .perfume__price {
   color: var(--deep-aquamarine);
-}
-
-#desktop__image {
-  border-top-left-radius: var(--card-border-radius);
-  border-bottom-left-radius: var(--card-border-radius);
-}
-
-#mobile__image{
-  display: none;
 }
