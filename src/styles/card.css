@@ -41,9 +41,6 @@
   align-items: center;
 }
 
-.perfume__anteriorPrice {
-  text-decoration: line-through;
-}
 
 .perfume__name,
 .perfume__description {
