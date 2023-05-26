@@ -28,8 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-%
+![](./src/images/perfume.jpg)
+
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/brunomoleta/crispy-enigma)
