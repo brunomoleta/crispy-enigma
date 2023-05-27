@@ -91,3 +91,5 @@ Learn how to *remove* or *add* a ```class``` (probably possible with ```js```) d
 
 - LinkedIn - [Bruno Moleta Santos](https://www.linkedin.com/in/bruno-moleta-santos/)
 - Frontend Mentor - [@brunomoleta](https://www.frontendmentor.io/profile/brunomoleta)
+
+<!--  -->

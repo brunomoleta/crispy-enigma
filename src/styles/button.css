@@ -29,3 +29,6 @@
 .perfume__btn:hover {
   background-color: var(--deep-aquamarine-hover);
 }
+@media (width < 40rem) {
+  background-color: var(--deep-aquamarine-hover);
+}

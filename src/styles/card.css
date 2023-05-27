@@ -4,21 +4,20 @@
   height: var(--card-height-desktop);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "image info";
+  border-radius: var(--card-border-radius);
+  box-shadow: 3px 3px 16px 3px #c9c9c9;
 }
 
-
 .perfume__image {
-  grid-area: "image";
-} 
-  #desktop__image {
-    border-top-left-radius: var(--card-border-radius);
-    border-bottom-left-radius: var(--card-border-radius);
-  }
-
+  background-image: url("../images/image-product-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  border-top-left-radius: var(--card-border-radius);
+  border-bottom-left-radius: var(--card-border-radius);
+}
 
 .perfume__info {
-  grid-area: "info";
   padding-inline: var(--card-text-padding-inline);
   background-color: var(--pure-white);
   border-top-right-radius: var(--card-border-radius);
@@ -53,7 +52,6 @@
   font-weight: var(--font-weight-bold);
   line-height: var(--heading-line-height);
 }
-
 
 .perfume__description,
 .perfume__anteriorPrice {
