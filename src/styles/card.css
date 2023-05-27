@@ -41,7 +41,6 @@
   align-items: center;
 }
 
-
 .perfume__name,
 .perfume__description {
   width: var(--text-width);
